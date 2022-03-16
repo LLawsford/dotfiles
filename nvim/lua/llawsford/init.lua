@@ -1,0 +1,5 @@
+require('llawsford/telescope')
+require('llawsford/lightline')
+require('llawsford/gitsigns')
+require('llawsford/lsp')
+require('llawsford/treesitter')
