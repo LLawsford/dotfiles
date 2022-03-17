@@ -1,4 +1,4 @@
-" enables syntax highlighting
+": enables syntax highlighting
 syntax on
 
 set noshowmode
@@ -72,11 +72,14 @@ Plug 'onsails/lspkind-nvim'
 
 " Treesitter
 Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
+
 call plug#end()
 
 lua require('llawsford')
 
 colorscheme ghdark
+
+imap jj <Esc>
 
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
